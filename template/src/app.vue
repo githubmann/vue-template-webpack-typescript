@@ -9,10 +9,20 @@
 
 <script lang="ts">
 import Vue from "vue";
-
-export default {
+import Component from 'vue-class-component'
+@Component({
+  methods: {
+    sayHello: function
+  }
+})
+export default App extends Vue{
   name: "app",
-} as Vue.ComponentOptions<Vue>;
+  methods: {
+    sayHello: () => {
+      console.log('sayHello')
+    }
+  }
+}
 </script>
 
 <style>
