@@ -12,7 +12,7 @@
     "test": "{{#unit}}npm run unit{{/unit}}{{#unit}}{{#e2e}} && {{/e2e}}{{/unit}}{{#e2e}}npm run e2e{{/e2e}}"{{/if_or}}
   },
   "dependencies": {
-    "vuex": "^2.2.2",
+    "vuex": "^2.2.1",
     "vue": "^2.2.1"{{#router}},
     "vue-router": "^2.2.0"{{/router}}
   },
